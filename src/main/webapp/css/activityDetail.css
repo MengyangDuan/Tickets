@@ -1,0 +1,13 @@
+#button-group{
+    margin-top: 30px;
+}
+#button-group button{
+    margin: 15px;
+    display: inline;
+    width:100px;
+    height:50px;
+}
+#name{
+    margin-bottom: 30px;
+    font-size: xx-large;
+}

@@ -1,0 +1,25 @@
+.input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.middle{
+    position: absolute;
+    top:0;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 250px;
+    width: 500px;
+    background-color: #2b4252;
+    text-align: center;
+    padding: 10px 80px 50px 80px;
+    opacity: 0.4;
+    border-radius: 10px;
+
+}
+.middle label{
+    color: #fff;
+
+}

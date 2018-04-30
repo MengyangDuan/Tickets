@@ -1,0 +1,50 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: duanmengyang
+  Date: 2018/3/5
+  Time: 下午7:41
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <%@include file="../common/head.jsp" %>
+    <link type="text/css" rel="stylesheet" href="/css/blockTitleAndText.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/search.css"/>
+    <link rel="stylesheet" href="/css/userinfo.css">
+</head>
+<body>
+<%@include file="../common/header.jsp" %>
+<%@include file="component/navigation.jsp" %>
+<div class="container" >
+    <div class="row">
+        <div class=" col-xs-10 col-sm-10  col-md-6  col-lg-6 col-md-offset-3  col-lg-offset-3 col-xs-offset-1  " >
+
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"  ><a href="/user/modify"> 基本信息</a></li>
+                <li role="presentation" ><a href="/user/modifyPassword">账号安全</a></li>
+                <li role="presentation" class="active"><a href="/user/userAccount">账户信息</a></li>
+            </ul>
+
+
+            <div class="row">
+                <div class=" col-xs-12 col-sm-10  col-md-10  col-lg-10 media-list-base " id="point">
+                    <p>账户信息</p>
+                    <div id="accountInfo">
+                        <p id="account" style="display: inline">账户: <span id="userAccount"></span></p>
+                        <p id="balance">余额: <span id="userBalance"></span></p>
+                    </div>
+                    <%--<div id="button-group">--%>
+                        <%--<button type="button" class="btn btn-primary btn-block create-base btn-base" id="create-btn">修改</button>--%>
+                    <%--</div>--%>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<%@include file="../common/tail.jsp" %>
+<script type="text/javascript" src="../../js/user/userAccount.js"></script>
+</body>
+</html>

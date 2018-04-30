@@ -1,0 +1,36 @@
+/**
+    * Created by Jiayiwu on 16/10/14.
+    * Mail:wujiayi@lgdreamer.com
+    * Change everywhere
+    */
+
+.container .row .media-list-base {
+    text-align: center;
+
+
+}
+
+.container .row .media-list-base p{
+
+    margin-top: 10px;
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .container .row  #point{
+
+        margin-left: 0px;
+
+    }
+}
+
+
+.container .row .media-list-base .create-base{
+
+    margin: 40px auto;
+    width: 80%;
+
+}

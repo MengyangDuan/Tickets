@@ -1,0 +1,13 @@
+.exchangeCoupon{
+    display: inline-block;
+    text-align: center;
+}
+.exchangeCoupon button{
+    display: block;
+}
+/*.addCoupon{*/
+    /*display: inline;*/
+/*}*/
+/*#couponLeft{*/
+    /*width: 1000px;*/
+/*}*/

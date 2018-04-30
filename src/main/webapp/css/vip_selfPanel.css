@@ -1,0 +1,14 @@
+.vip-avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.vip-self-li{
+    margin-top:20px ;
+}
+.vip-self-li input[type="radio"]{
+    margin-left: 10px;
+}
+#info h2{
+    display: inline-block;
+}

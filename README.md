@@ -1,5 +1,3 @@
 # Tickets
-a concert ticket booking system
-using bootstrap Spring  mySql
-support select seats online
-offer a manager system as well
+a concert ticket booking system using bootstrap,Spring,mySql... 
+It supports select seats onlineand it offers a manager system as well
